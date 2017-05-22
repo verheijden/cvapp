@@ -1,0 +1,152 @@
+{
+  "content_nl": {
+    "header": "Curriculum Vitae",
+    "subheader": "Responsive cv",
+    "sections": [
+      {
+        "title": "Personalia",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "expanded": {
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "slides": [
+            {
+              "title": "Slide 1",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            },
+            {
+              "title": "Slide 2",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            },
+            {
+              "title": "Slide 3",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Opleiding & Training",
+        "description": "",
+        "items" : [
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          },
+          {
+            "Opleiding": "AngularJS",
+            "Instituut": "Vijfhart",
+            "Jaar": "2016"
+          }
+
+        ]
+      },
+      {
+        "title": "UX Design",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "lists" : [
+          ["Analysis of user needs", "Describing user characteristics", "Defining tasks & scenarios", "Creating use cases", "Information Architecture"],
+          ["Setting Functional Requirements", "paper prototyping", "wireframing", "mockups & user testing"],  
+          ["Interaction design", "Navigation design", "Interface design", "Visual Design"]  
+        ],
+        "expanded": {
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "slides": [
+            {
+              "title": "Slide 1",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            },
+            {
+              "title": "Slide 2",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            },
+            {
+              "title": "Slide 3",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Development",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+        "lists" : [
+          ["Javascript & JSON", "Document Object Model", "CSS", "HTML", "XML & XSLT"],
+          ["MVC", "jQuery", "Backbase portal", "Handlebars.js"],  
+          ["Backbone", "Angular", "React", "Vue"]  
+        ],
+        "expanded": {
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "slides": [
+            {
+              "title": "Slide 1",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            },
+            {
+              "title": "Slide 2",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            },
+            {
+              "title": "Slide 3",
+              "slide_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+              "resource": "url"
+            }
+          ]
+        }
+      },
+      {"title": "Workflow"},
+      {"title": "Methodologies"},
+      {"title": "Communicatie"},
+      {"title": "Werkervaring"},
+      {"title": "Persoonlijk"}
+    ]
+  }
+}

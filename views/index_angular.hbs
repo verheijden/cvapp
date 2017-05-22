@@ -1,5 +1,57 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!--<h1>{{title}}</h1>-->
 
+
+<div class="wrapper">
+
+  <div class="cvdoc" ng-controller="cvdocController as cvdocCtrl">
+    
+    <!-- <section ng-class="sectionCtrl.sectionclass" ng-controller="sectionController as sectionCtrl" ng-repeat="section in cvdocCtrl.sections"> -->
+    <section class="section_cv" ng-class="{'section_cv' : sectionCtrl.selected = 'cv', 'section_cv2mnu', 'section_fadeout' : sectionCtrl.selected = 'something'}" ng-controller="sectionController as sectionCtrl" ng-repeat="section in cvdocCtrl.sections">
+      <div class="container" ng-click="sectionCtrl.selectSection($index)">
+        <h2>\{{ section.title }}</h2>
+        <p>\{{ section.description }}</p>
+        
+        <div class="section_cv_list" ng-repeat="list in section.lists">
+          <ul>
+            <li ng-repeat="item in list">\{{ item }}</li>
+          </ul>
+        </div> 
+        <div class="clearfloat"></div>
+      
+      </div>
+      
+      <div class="carousel">
+        <div class="carousel-content">
+          <div class="slide" ng-repeat="slide in section.expanded.slides">
+            <h2>\{{ slide.title }}</h2>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <span class="carousel-button" ng-repeat="slide in section.expanded.slides" ng-click="sectionCtrl.selectSlide($index)">
+          O
+          </span>
+        </div>
+      </div>
+    </section>
+  
+  </div>
+
+  <nav class="menu" ng-controller="menuController as menuCtrl">
+    <ul>
+      <li ng-repeat="section in menuCtrl.sections" ng-click="menuCtrl.selectSection($index)">
+        <div>\{{ section.title }}</div>
+      </li>
+    </ul>
+  </nav>
+
+  <div style="clear:both"></div>
+
+</div>
+
+
+
+<script src="/js/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
 <script src="/js/bower_components/angular/angular.js" type="text/javascript"></script>
 <script src="/js/cv_angular.js" type="text/javascript"></script>
+
+ 

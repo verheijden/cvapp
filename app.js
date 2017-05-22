@@ -5,6 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var index_root = require('./routes/index_root');
+var index_react = require('./routes/index_react');
+var index_react_doc = require('./routes/index_react_doc');
 var index_angular = require('./routes/index_angular');
 var users = require('./routes/users');
 
@@ -22,7 +25,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index_angular);
+app.use('/', index_root);
+app.use('/cv', index_react);
+app.use('/cv_doc', index_react_doc);
+app.use('/react', index_react);
+app.use('/angular', index_angular);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -44,3 +51,7 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+// startup : root : DEBUG=myapp:* npm start
+// code linting : root:  grunt watch

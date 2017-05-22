@@ -1,0 +1,1 @@
+{"version":3,"sources":["public/js/babel_test.js"],"names":["map","x"],"mappings":"AAAA,CAAC,CAAD,EAAG,CAAH,EAAK,CAAL,EAAQA,GAAR,CAAYC,KAAKA,IAAIA,CAArB","file":"src","sourcesContent":["[1,2,3].map(x => x * x);"]}
